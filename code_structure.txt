@@ -1,0 +1,94 @@
+1) $db;
+        замовлення( orders )
+                ->id ->name ->created_at ->updated_at
+        клієнти( clients )
+                ->id ->name ->created_at ->updated_at
+        ролі( roles )
+                ->id ->name ->created_at ->updated_at
+        статуси( statuses )
+                ->id ->name ->created_at ->updated_at
+        оплати( payments )
+                ->id ->name ->created_at ->updated_at
+        країни( countries )
+                ->id ->name ->created_at ->updated_at
+        відділення( departments )
+                ->id ->name ->created_at ->updated_at
+        правила( rules )
+                ->id ->name ->created_at ->updated_at
+        налаштування( settings )
+                ->id ->name ->created_at ->updated_at
+
+
+        + other
+
+2) MVC
+        controller
+            OrderController
+            ClientController
+            RoleController
+            StatusController
+            PaymentController
+            CountryController
+            DepartmentController
+            RuleController
+            SettingController
+
+        model
+            Order
+            Client
+            Role
+            Status
+            Payment
+            Country
+            Department
+            Rule
+            Setting
+
+        view
+            order/
+                order.blade.php
+                create.blade.php
+                edit.blade.php
+            client/
+                client.blade.php
+                create.blade.php
+                edit.blade.php
+            role/
+                role.blade.php
+                create.blade.php
+                edit.blade.php
+            status/
+                status.blade.php
+                create.blade.php
+                edit.blade.php
+            payment/
+                payment.blade.php
+                create.blade.php
+                edit.blade.php
+            country/
+                country.blade.php
+                create.blade.php
+                edit.blade.php
+            department/
+                department.blade.php
+                create.blade.php
+                edit.blade.php
+            rule/
+                rule.blade.php
+                create.blade.php
+                edit.blade.php
+            setting/
+                setting.blade.php
+                create.blade.php
+                edit.blade.php
+
+        route
+            order
+            client
+            role
+            status
+            payment
+            country
+            department
+            rule
+            setting
